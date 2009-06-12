@@ -424,7 +424,6 @@ int vtkIntegrateAttributes::RequestData(vtkInformation*,
       }
     return 0;
     }
-  cout << "Done ---- " << endl;
 
   // Here is the trick:  The satellites need a point and vertex to
   // marshal the attributes.  Node zero needs to receive first...
