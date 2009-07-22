@@ -290,7 +290,7 @@ void vtkIntegrateAttributes::ExecuteBlock(
 
   this->PointFieldList = NULL;
   this->CellFieldList = NULL;
-  this->FieldListIndex = NULL;
+  this->FieldListIndex = 0;
 }
 
 //-----------------------------------------------------------------------------
