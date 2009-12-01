@@ -247,7 +247,7 @@ int vtkCosmoHaloFinder::RequestData(vtkInformation* request,
     }
 
   // calculate np from data
-  this->np = (int)(pow(this->npart, 1.0 / 3.0) + .5);
+  this->np = (int)(pow((double)this->npart, 1.0 / 3.0) + .5);
   vtkDebugMacro(<< "np = " << this->np);
 
   // normalize
